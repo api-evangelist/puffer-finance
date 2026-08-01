@@ -1,0 +1,22 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/PufferFinance
+packages:
+- language: typescript
+  registry: npm
+  name: "@pufferfinance/puffer-sdk"
+  version: 1.31.1
+  url: https://www.npmjs.com/package/@pufferfinance/puffer-sdk
+  repo: https://github.com/PufferFinance/puffer-sdk
+  docs: https://pufferfinance.github.io/puffer-sdk/
+  install: npm install @pufferfinance/puffer-sdk
+  description: SDK to seamlessly interact with the Puffer smart contracts (deposit ETH/stETH to mint pufETH, check balances, exchange rates).
+  official: true
+- language: rust
+  registry: crates-source
+  name: coral-cli
+  url: https://github.com/PufferFinance/coral
+  repo: https://github.com/PufferFinance/coral
+  install: cargo install -f --git https://github.com/PufferFinance/coral.git
+  description: Rust CLI / middleware between the Enclave (Secure Signer) and Puffer smart contracts.
+  official: true

@@ -1,8 +1,26 @@
 aid: puffer-finance
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/puffer-finance.png
 name: Puffer Finance
-description: 'Puffer Finance is a company surfaced as a portfolio company of electric-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: defi. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Puffer Finance is an Ethereum infrastructure protocol building native
+  liquid restaking (nLRP) integrated with EigenLayer, the UniFi based rollup, and
+  Puffer Preconf preconfirmation services. Users stake ETH to mint the pufETH liquid
+  restaking token and earn Ethereum staking plus EigenLayer and Puffer restaking yields.
+  Puffer also ships institutional-grade staking infrastructure. It is an onchain,
+  smart-contract protocol: developers integrate via its Solidity contracts, the
+  first-party TypeScript puffer-sdk, and the Rust coral CLI rather than a hosted
+  web API. Surfaced as a portfolio company of electric-capital and enriched in the
+  API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/puffer-finance/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Defi
+- Ethereum
+- Liquid Restaking
+- Staking
+- Blockchain
+- EigenLayer
+- Rollup
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,34 @@ maintainers:
 common:
 - type: Website
   url: https://www.puffer.fi/
+- type: DeveloperPortal
+  url: https://docs.puffer.fi/
+- type: Documentation
+  url: https://docs.puffer.fi/
+- type: Blog
+  url: https://blog.puffer.fi/
+- type: GitHubOrganization
+  url: https://github.com/PufferFinance
+- type: SignUp
+  url: https://app.puffer.fi/
+- type: Support
+  url: https://discord.com/invite/pufferfi
+- type: TermsOfService
+  url: https://www.puffer.fi/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.puffer.fi/privacy-policy
+- type: Packages
+  url: packages/puffer-finance-packages.yml
+- type: SDKs
+  url: packages/puffer-finance-packages.yml
+- type: CLI
+  url: cli/puffer-finance-cli.yml
+- type: LLMsTxt
+  url: llms/puffer-finance-llms.txt
+- type: DomainSecurity
+  url: security/puffer-finance-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

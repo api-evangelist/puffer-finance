@@ -1,0 +1,19 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/PufferFinance/coral
+name: coral-cli
+description: Rust command-line tool ("coral") used as middleware between the Enclave / Secure Signer and the Puffer Protocol smart contracts.
+repo: https://github.com/PufferFinance/coral
+language: rust
+latest_release: 1.2.0
+install:
+- method: cargo-git
+  command: cargo install -f --git https://github.com/PufferFinance/coral.git
+- method: cargo-path
+  command: cargo install -f --path=coral-cli
+- method: docker
+  command: docker run pufferfinance/coral
+run:
+  binary: coral-cli
+  dev: cargo run --bin coral-cli
+notes: Commands operate remote-attestation / secure-signer registration flows for Puffer validators. Full subcommand surface is documented in the repository README (dev mode).

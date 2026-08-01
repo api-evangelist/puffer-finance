@@ -1,0 +1,24 @@
+# Puffer Finance
+
+> Puffer Finance is an Ethereum infrastructure protocol building native liquid restaking (nLRP) integrated with EigenLayer, the UniFi based rollup, and Puffer Preconf preconfirmation services. Users stake ETH to mint pufETH and earn Ethereum staking plus restaking yields. Puffer is an onchain smart-contract protocol — integration is via its smart contracts, TypeScript SDK, and Rust CLI rather than a hosted web API.
+
+## Docs
+- [Documentation](https://docs.puffer.fi/): Protocol documentation (liquid restaking, UniFi rollup, preconf, institutional)
+- [UniFi Rollup Docs](https://docs-unifi.puffer.fi/): UniFi based-rollup developer documentation
+- [SDK Documentation](https://pufferfinance.github.io/puffer-sdk/): puffer-sdk API reference and guides
+- [Governance Forum](https://governance.puffer.fi/): Governance proposals and discussion
+
+## Developer
+- [GitHub Organization](https://github.com/PufferFinance): Smart contracts, SDK, and tooling
+- [puffer-sdk (npm)](https://www.npmjs.com/package/@pufferfinance/puffer-sdk): TypeScript SDK for the Puffer smart contracts (`npm install @pufferfinance/puffer-sdk`)
+- [coral CLI](https://github.com/PufferFinance/coral): Rust CLI / secure-signer middleware
+- [pufETH contracts](https://github.com/PufferFinance/pufETH): pufETH liquid restaking token contracts
+- [puffer-contracts](https://github.com/PufferFinance/puffer-contracts): Core protocol Solidity contracts
+
+## App
+- [Puffer App](https://app.puffer.fi/): Stake ETH / mint pufETH
+- [Blog](https://blog.puffer.fi/): Announcements and protocol updates
+
+## Legal
+- [Terms of Service](https://www.puffer.fi/terms-of-service)
+- [Privacy Policy](https://www.puffer.fi/privacy-policy)
